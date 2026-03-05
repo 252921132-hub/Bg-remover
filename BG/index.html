@@ -1,27 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>AI Background Remover</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>My Animated Website</title>
+
 <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
-<h1>AI Background Remover</h1>
+<header>
+<h1>My Website</h1>
+<button onclick="showMessage()">Click Me</button>
+</header>
 
-<input type="file" id="fileInput">
+<section class="cards">
 
-<br><br>
+<div class="card">
+<h2>Fast</h2>
+<p>My website is very fast.</p>
+</div>
 
-<button onclick="removeBG()">Remove Background</button>
+<div class="card">
+<h2>Modern</h2>
+<p>Modern UI design.</p>
+</div>
 
-<br><br>
+<div class="card">
+<h2>Animated</h2>
+<p>Cool animations.</p>
+</div>
 
-<img id="output">
-
-<br><br>
-
-<a id="download" download="no-bg.png">Download Image</a>
+</section>
 
 <script src="script.js"></script>
 
